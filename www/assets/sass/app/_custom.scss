@@ -1,0 +1,546 @@
+/*page custom css*/
+
+$color_purple: #5133AB;
+$color_red: #d9534f;
+$color_orange: #DC572E;
+$color_green: #00A600;
+$color_blue: #2672EC;
+$color_white: #fff;
+$color_black: #333;
+// colors from http://www.creepyed.com/2012/09/windows-8-colors-hex-code/
+$base_font_size: 16px;
+$base_line_height: 1.5em;
+$text_font_family: 'Open Sans',
+"Segoe UI",
+Frutiger,
+"Frutiger Linotype",
+"Dejavu Sans",
+"Helvetica Neue",
+Arial,
+sans-serif;
+$display_font_family: 'Open Sans',
+"Segoe UI",
+Frutiger,
+"Frutiger Linotype",
+"Dejavu Sans",
+"Helvetica Neue",
+Arial,
+sans-serif;
+body {
+    overflow-x: hidden;
+    padding-top: 50px;
+    font-family: $text_font_family;
+    font-size: $base_font_size;
+    line-height: $base_line_height;
+    font-weight: 400;
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 8px 15px !important;
+    position: relative;
+    padding: 9px 10px;
+    background: transparent !important;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.navbar-toggle-left {
+    margin-top: 8px !important;
+    margin-left: 8px !important;
+    border: 1px solid #fff !important;
+}
+
+.navmenu-fixed-left {
+    background-color: #333 !important;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    ul li {
+        border-bottom: 1px solid #fff;
+    }
+    .navmenu-nav>li>a {
+        color:#999;
+        &:hover {
+            color: #fff;
+        }
+    }
+    .navmenu-brand{
+        font-size: 24px;
+        color:#999;
+    }
+}
+
+.navmenu-nav.dropdown-menu {
+    background-color: #333 !important;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    li {
+        &:last-child {
+            border-bottom: 0 !important;
+        }
+    }
+}
+
+.tile {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 6px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    .title {
+        margin-top: 0px;
+    }
+    &.purple,
+    &.blue,
+    &.red,
+    &.orange,
+    &.green {
+        color: #fff;
+    }
+    &.purple {
+        background: $color_purple;
+        &:hover {
+            background: darken($color_purple, 10%);
+        }
+    }
+    &.red {
+        background: $color_red;
+        &:hover {
+            background: darken($color_red, 10%);
+        }
+    }
+    &.green {
+        background: $color_green;
+        &:hover {
+            background: darken($color_green, 10%);
+        }
+    }
+    &.blue {
+        background: $color_blue;
+        &:hover {
+            background: darken($color_blue, 10%);
+        }
+    }
+    &.orange {
+        background: $color_orange;
+        &:hover {
+            background: darken($color_orange, 10%);
+        }
+    }
+    &.bg-temple {
+        background: url(../images/temple.png) center center no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+        border: 1px solid #ccc;
+    }
+    &.bg-laddu {
+        background: url(../images/laddu.png) center center no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+        border: 1px solid #ccc;
+    }
+    &.bg-deepam {
+        background: url(../images/deepam.jpg) center center no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+        border: 1px solid #ccc;
+    }
+    &.bg-kanika {
+        background: url(../images/kanika.png) center center no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+        border: 1px solid #ccc;
+    }
+    &.bg-besan {
+        background: url(../images/besan.png) center center no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+        border: 1px solid #ccc;
+    }
+    &.bg-appam {
+        background: url(../images/appam.png) center center no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+        border: 1px solid #ccc;
+    }
+    &.bg-alu {
+        background: url(../images/alu.png) center center no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+        border: 1px solid #ccc;
+    }
+}
+
+
+/* Header Image Background
+   - Change the URL below to your image path
+   (example: ../images/background.jpg) */
+
+.business-header,
+.details-panel {
+    height: 250px;
+    background: url('../images/header.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    .tagline {
+        text-shadow: 0 0 10px #000;
+        color: #fff;
+        line-height: 250px;
+    }
+}
+
+.laddu-img {
+    background: url('../images/laddu.png') center center no-repeat;
+    height: 200px;
+}
+.laddu-img {
+    background: url('../images/deepam.jpg') center center no-repeat;
+    height: 200px;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.disp-table {
+    display: table;
+}
+
+.tiles-cont {
+    padding-top: 5px;
+    .m_left {
+        padding-right: 3px;
+    }
+    .m_right {
+        padding-left: 3px;
+    }
+    .m_both {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+}
+
+.m_btntab {
+    padding: 0;
+    position: fixed;
+    z-index: 10;
+    .btn {
+        padding: 14px 12px !important;
+        font-size: 16px;
+        font-weight: bold;
+        color: $color_white;
+        background-color: $color_black;
+        border-color: $color_black;
+        border-radius: 0;
+        &.active {
+            background-color: $color_red;
+            border-color: $color_red;
+        }
+    }
+}
+
+.revealcont {
+    .m_btntab {
+        position: relative !important;
+        margin-left: -15px;
+        margin-right: -15px;
+        width: auto;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .tabcontent {
+        margin: 0;
+    }
+}
+
+.text-white {
+    color: $color_white;
+}
+
+.margin-top-small {
+    margin-top: 24px !important;
+}
+
+.margin-top-tiny {
+    margin-top: 12px !important;
+}
+
+.tabcontent {
+    margin-top: 50px;
+}
+
+.collapsed {
+    .glyphicon-chevron-up {
+        &:before {
+            content: '\e114';
+        }
+    }
+}
+
+
+/*customized top bar */
+
+.m_nav-bar {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    border: none;
+    background: none !important;
+}
+
+.navbar-fixed-bottom {
+    height: 55px;
+}
+
+.form-group {
+    margin-bottom: 0;
+    margin-top: 5px;
+    #exampleInputAmount {
+        height: 35px;
+    }
+}
+
+.padding-all-zero {
+    padding: 0;
+}
+
+.navbar-title {
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: $color_white;
+}
+
+.navmenu {
+    z-index: 1;
+    background-color: #fff;
+}
+
+.canvas {
+    position: relative;
+    left: 0;
+    z-index: 2;
+    min-height: 100vh;
+    padding: 1px 0 0 0;
+    background: #fff;
+}
+
+@media (min-width: 0) {
+    .navbar-toggle {
+        display: block;
+        /* force showing the toggle */
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        right: auto;
+        background: none;
+        border: none;
+    }
+    .canvas {
+        padding: 0;
+    }
+}
+
+.action-items {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 22px;
+}
+
+
+/* language choose section styles*/
+
+.langpanel {
+    margin: 50% auto;
+}
+
+.price-cart {
+    position: absolute;
+    width: 90%;
+    bottom: 6px;
+    left: 10px;
+    .amount {
+        float: left;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+    .cart-btn {
+        float: right;
+        font-size: 10px !important;
+        font-weight: bold;
+        width: auto !important;
+    }
+}
+
+.marginBottom-0 {
+    margin-bottom: 0;
+}
+
+.dropdown-submenu {
+    position: relative;
+    >.dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        -webkit-border-radius: 0 6px 6px 6px;
+        -moz-border-radius: 0 6px 6px 6px;
+        border-radius: 0 6px 6px 6px;
+    }
+    >a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #cccccc;
+        margin-top: 5px;
+        margin-right: -10px;
+    }
+    &:hover>a:after {
+        border-left-color: #555;
+    }
+    &.pull-left {
+        float: none;
+    }
+    &.pull-left>.dropdown-menu {
+        left: -100%;
+        margin-left: 10px;
+        -webkit-border-radius: 6px 0 6px 6px;
+        -moz-border-radius: 6px 0 6px 6px;
+        border-radius: 6px 0 6px 6px;
+    }
+}
+
+.payment-panel {
+    margin-top: 20px;
+    padding-bottom: 24px;
+    .panel-title {
+        display: inline;
+        font-weight: bold;
+    }
+    .checkbox.pull-right {
+        margin: 0;
+    }
+    .pl-ziro {
+        padding-left: 0px;
+    }
+    .panel-body {
+        padding-bottom: 24px;
+    }
+}
+
+.payment-success {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    .fa.fa-6 {
+        font-size: 8rem;
+    }
+    .pay-msg {
+        font-size: 18px;
+    }
+    .refno {
+        margin-top: 20px;
+        width: 70%;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-left: auto;
+        padding-bottom: 10px;
+        margin-right: auto;
+    }
+}
+
+.img-rotate {
+    -ms-transform: rotate(7deg);
+    /* IE 9 */
+    -webkit-transform: rotate(7deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+.darshantab, .pujatab {
+    padding: 0;
+    z-index: 10;
+    .btn {
+        padding: 14px 12px !important;
+        font-size: 16px;
+        font-weight: bold;
+        color: $color_white;
+        background-color: $color_black;
+        border-color: #ccc;;
+        border-radius: 0;
+        &.active {
+            background-color: $color_red;
+            border-color: #ccc;
+        }
+    }
+}
+
+.optioncont .tabcontent{
+    margin-top:0 !important;
+    margin-bottom:15px !important;
+    border: 1px solid #ccc;
+    padding:15px;
+    background-color: #f9f9f9;
+    .tabs{
+
+        ul{
+            li{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.user-info{
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    p {
+        margin:0 !important;
+        span{
+            font-weight: bold;
+            padding: 10px;
+            display: inline-block;
+            &:first-child{
+                background-color: #333;
+                color: #fff;
+                width:30%;
+            }
+            &:last-child{
+                color: #333;
+                width:68%;
+            }
+        }
+    }
+}
+
+label[for='visitercount']{
+    top:3px;
+}
+
+#Pooja, .pujatab{
+    margin-bottom:15px;
+}
