@@ -4,15 +4,6 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /*page custom css*/
 /* line 29, ../sass/app/_custom.scss */
-.bgimageindex{
-	background: url(../images/flag.jpg) no-repeat ;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-	background-color: #fff;
-
-}
 body {
   overflow-x: hidden;
   padding-top: 50px;
@@ -152,35 +143,35 @@ body {
   z-index: 1;
   border: 1px solid #ccc;
 }
-
+/* line 149, ../sass/app/_custom.scss */
 .tile.bg-deepam {
   background: url(../images/deepam.jpg) center center no-repeat;
   opacity: 0.8;
   z-index: 1;
   border: 1px solid #ccc;
 }
-/* line 149, ../sass/app/_custom.scss */
+/* line 155, ../sass/app/_custom.scss */
 .tile.bg-kanika {
   background: url(../images/kanika.png) center center no-repeat;
   opacity: 0.8;
   z-index: 1;
   border: 1px solid #ccc;
 }
-/* line 155, ../sass/app/_custom.scss */
+/* line 161, ../sass/app/_custom.scss */
 .tile.bg-besan {
   background: url(../images/besan.png) center center no-repeat;
   opacity: 0.8;
   z-index: 1;
   border: 1px solid #ccc;
 }
-/* line 161, ../sass/app/_custom.scss */
+/* line 167, ../sass/app/_custom.scss */
 .tile.bg-appam {
   background: url(../images/appam.png) center center no-repeat;
   opacity: 0.8;
   z-index: 1;
   border: 1px solid #ccc;
 }
-/* line 167, ../sass/app/_custom.scss */
+/* line 173, ../sass/app/_custom.scss */
 .tile.bg-alu {
   background: url(../images/alu.png) center center no-repeat;
   opacity: 0.8;
@@ -191,7 +182,7 @@ body {
 /* Header Image Background
    - Change the URL below to your image path
    (example: ../images/background.jpg) */
-/* line 180, ../sass/app/_custom.scss */
+/* line 186, ../sass/app/_custom.scss */
 .business-header,
 .details-panel {
   height: 250px;
@@ -201,7 +192,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 188, ../sass/app/_custom.scss */
+/* line 194, ../sass/app/_custom.scss */
 .business-header .tagline,
 .details-panel .tagline {
   text-shadow: 0 0 10px #000;
@@ -209,51 +200,53 @@ body {
   line-height: 250px;
 }
 
-/* line 195, ../sass/app/_custom.scss */
+/* line 201, ../sass/app/_custom.scss */
 .laddu-img {
   background: url("../images/laddu.png") center center no-repeat;
   height: 200px;
 }
-.deepam-img {
+
+/* line 205, ../sass/app/_custom.scss */
+.laddu-img {
   background: url("../images/deepam.jpg") center center no-repeat;
   height: 200px;
 }
 
-/* line 200, ../sass/app/_custom.scss */
+/* line 210, ../sass/app/_custom.scss */
 .table-cell {
   display: table-cell;
 }
 
-/* line 204, ../sass/app/_custom.scss */
+/* line 214, ../sass/app/_custom.scss */
 .disp-table {
   display: table;
 }
 
-/* line 208, ../sass/app/_custom.scss */
+/* line 218, ../sass/app/_custom.scss */
 .tiles-cont {
   padding-top: 5px;
 }
-/* line 210, ../sass/app/_custom.scss */
+/* line 220, ../sass/app/_custom.scss */
 .tiles-cont .m_left {
   padding-right: 3px;
 }
-/* line 213, ../sass/app/_custom.scss */
+/* line 223, ../sass/app/_custom.scss */
 .tiles-cont .m_right {
   padding-left: 3px;
 }
-/* line 216, ../sass/app/_custom.scss */
+/* line 226, ../sass/app/_custom.scss */
 .tiles-cont .m_both {
   padding-right: 3px;
   padding-left: 3px;
 }
 
-/* line 222, ../sass/app/_custom.scss */
+/* line 232, ../sass/app/_custom.scss */
 .m_btntab {
   padding: 0;
   position: fixed;
   z-index: 10;
 }
-/* line 226, ../sass/app/_custom.scss */
+/* line 236, ../sass/app/_custom.scss */
 .m_btntab .btn {
   padding: 14px 12px !important;
   font-size: 16px;
@@ -263,13 +256,13 @@ body {
   border-color: #333;
   border-radius: 0;
 }
-/* line 234, ../sass/app/_custom.scss */
+/* line 244, ../sass/app/_custom.scss */
 .m_btntab .btn.active {
   background-color: #d9534f;
   border-color: #d9534f;
 }
 
-/* line 242, ../sass/app/_custom.scss */
+/* line 252, ../sass/app/_custom.scss */
 .revealcont .m_btntab {
   position: relative !important;
   margin-left: -15px;
@@ -278,38 +271,38 @@ body {
   padding-right: 3px;
   padding-left: 3px;
 }
-/* line 250, ../sass/app/_custom.scss */
+/* line 260, ../sass/app/_custom.scss */
 .revealcont .tabcontent {
   margin: 0;
 }
 
-/* line 255, ../sass/app/_custom.scss */
+/* line 265, ../sass/app/_custom.scss */
 .text-white {
   color: #fff;
 }
 
-/* line 259, ../sass/app/_custom.scss */
+/* line 269, ../sass/app/_custom.scss */
 .margin-top-small {
   margin-top: 24px !important;
 }
 
-/* line 263, ../sass/app/_custom.scss */
+/* line 273, ../sass/app/_custom.scss */
 .margin-top-tiny {
   margin-top: 12px !important;
 }
 
-/* line 267, ../sass/app/_custom.scss */
+/* line 277, ../sass/app/_custom.scss */
 .tabcontent {
   margin-top: 50px;
 }
 
-/* line 273, ../sass/app/_custom.scss */
+/* line 283, ../sass/app/_custom.scss */
 .collapsed .glyphicon-chevron-up:before {
   content: '\e114';
 }
 
 /*customized top bar */
-/* line 282, ../sass/app/_custom.scss */
+/* line 292, ../sass/app/_custom.scss */
 .m_nav-bar {
   margin-top: 10px;
   font-size: 18px;
@@ -319,27 +312,27 @@ body {
   background: none !important;
 }
 
-/* line 291, ../sass/app/_custom.scss */
+/* line 301, ../sass/app/_custom.scss */
 .navbar-fixed-bottom {
   height: 55px;
 }
 
-/* line 295, ../sass/app/_custom.scss */
+/* line 305, ../sass/app/_custom.scss */
 .form-group {
   margin-bottom: 0;
   margin-top: 5px;
 }
-/* line 298, ../sass/app/_custom.scss */
+/* line 308, ../sass/app/_custom.scss */
 .form-group #exampleInputAmount {
   height: 35px;
 }
 
-/* line 303, ../sass/app/_custom.scss */
+/* line 313, ../sass/app/_custom.scss */
 .padding-all-zero {
   padding: 0;
 }
 
-/* line 307, ../sass/app/_custom.scss */
+/* line 317, ../sass/app/_custom.scss */
 .navbar-title {
   height: 50px;
   padding: 15px 15px;
@@ -350,13 +343,13 @@ body {
   color: #fff;
 }
 
-/* line 317, ../sass/app/_custom.scss */
+/* line 327, ../sass/app/_custom.scss */
 .navmenu {
   z-index: 1;
   background-color: #fff;
 }
 
-/* line 322, ../sass/app/_custom.scss */
+/* line 332, ../sass/app/_custom.scss */
 .canvas {
   position: relative;
   left: 0;
@@ -367,26 +360,26 @@ body {
 }
 
 @media (min-width: 0) {
-  /* line 332, ../sass/app/_custom.scss */
+  /* line 342, ../sass/app/_custom.scss */
   .navbar-toggle {
     display: block;
     /* force showing the toggle */
   }
 }
 @media (min-width: 992px) {
-  /* line 339, ../sass/app/_custom.scss */
+  /* line 349, ../sass/app/_custom.scss */
   .navbar {
     right: auto;
     background: none;
     border: none;
   }
 
-  /* line 344, ../sass/app/_custom.scss */
+  /* line 354, ../sass/app/_custom.scss */
   .canvas {
     padding: 0;
   }
 }
-/* line 349, ../sass/app/_custom.scss */
+/* line 359, ../sass/app/_custom.scss */
 .action-items {
   position: absolute;
   bottom: 0;
@@ -396,25 +389,25 @@ body {
 }
 
 /* language choose section styles*/
-/* line 360, ../sass/app/_custom.scss */
+/* line 370, ../sass/app/_custom.scss */
 .langpanel {
   margin: 50% auto;
 }
 
-/* line 364, ../sass/app/_custom.scss */
+/* line 374, ../sass/app/_custom.scss */
 .price-cart {
   position: absolute;
   width: 90%;
   bottom: 6px;
   left: 10px;
 }
-/* line 369, ../sass/app/_custom.scss */
+/* line 379, ../sass/app/_custom.scss */
 .price-cart .amount {
   float: left;
   vertical-align: middle;
   font-weight: bold;
 }
-/* line 374, ../sass/app/_custom.scss */
+/* line 384, ../sass/app/_custom.scss */
 .price-cart .cart-btn {
   float: right;
   font-size: 10px !important;
@@ -422,16 +415,16 @@ body {
   width: auto !important;
 }
 
-/* line 382, ../sass/app/_custom.scss */
+/* line 392, ../sass/app/_custom.scss */
 .marginBottom-0 {
   margin-bottom: 0;
 }
 
-/* line 386, ../sass/app/_custom.scss */
+/* line 396, ../sass/app/_custom.scss */
 .dropdown-submenu {
   position: relative;
 }
-/* line 388, ../sass/app/_custom.scss */
+/* line 398, ../sass/app/_custom.scss */
 .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
@@ -441,7 +434,7 @@ body {
   -moz-border-radius: 0 6px 6px 6px;
   border-radius: 0 6px 6px 6px;
 }
-/* line 397, ../sass/app/_custom.scss */
+/* line 407, ../sass/app/_custom.scss */
 .dropdown-submenu > a:after {
   display: block;
   content: " ";
@@ -455,15 +448,15 @@ body {
   margin-top: 5px;
   margin-right: -10px;
 }
-/* line 410, ../sass/app/_custom.scss */
+/* line 420, ../sass/app/_custom.scss */
 .dropdown-submenu:hover > a:after {
   border-left-color: #555;
 }
-/* line 413, ../sass/app/_custom.scss */
+/* line 423, ../sass/app/_custom.scss */
 .dropdown-submenu.pull-left {
   float: none;
 }
-/* line 416, ../sass/app/_custom.scss */
+/* line 426, ../sass/app/_custom.scss */
 .dropdown-submenu.pull-left > .dropdown-menu {
   left: -100%;
   margin-left: 10px;
@@ -472,45 +465,45 @@ body {
   border-radius: 6px 0 6px 6px;
 }
 
-/* line 425, ../sass/app/_custom.scss */
+/* line 435, ../sass/app/_custom.scss */
 .payment-panel {
   margin-top: 20px;
   padding-bottom: 24px;
 }
-/* line 428, ../sass/app/_custom.scss */
+/* line 438, ../sass/app/_custom.scss */
 .payment-panel .panel-title {
   display: inline;
   font-weight: bold;
 }
-/* line 432, ../sass/app/_custom.scss */
+/* line 442, ../sass/app/_custom.scss */
 .payment-panel .checkbox.pull-right {
   margin: 0;
 }
-/* line 435, ../sass/app/_custom.scss */
+/* line 445, ../sass/app/_custom.scss */
 .payment-panel .pl-ziro {
   padding-left: 0px;
 }
-/* line 438, ../sass/app/_custom.scss */
+/* line 448, ../sass/app/_custom.scss */
 .payment-panel .panel-body {
   padding-bottom: 24px;
 }
 
-/* line 443, ../sass/app/_custom.scss */
+/* line 453, ../sass/app/_custom.scss */
 .payment-success {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #fff;
 }
-/* line 448, ../sass/app/_custom.scss */
+/* line 458, ../sass/app/_custom.scss */
 .payment-success .fa.fa-6 {
   font-size: 8rem;
 }
-/* line 451, ../sass/app/_custom.scss */
+/* line 461, ../sass/app/_custom.scss */
 .payment-success .pay-msg {
   font-size: 18px;
 }
-/* line 454, ../sass/app/_custom.scss */
+/* line 464, ../sass/app/_custom.scss */
 .payment-success .refno {
   margin-top: 20px;
   width: 70%;
@@ -521,7 +514,7 @@ body {
   margin-right: auto;
 }
 
-/* line 465, ../sass/app/_custom.scss */
+/* line 475, ../sass/app/_custom.scss */
 .img-rotate {
   -ms-transform: rotate(7deg);
   /* IE 9 */
@@ -530,12 +523,12 @@ body {
   transform: rotate(7deg);
 }
 
-/* line 472, ../sass/app/_custom.scss */
+/* line 482, ../sass/app/_custom.scss */
 .darshantab, .pujatab {
   padding: 0;
   z-index: 10;
 }
-/* line 475, ../sass/app/_custom.scss */
+/* line 485, ../sass/app/_custom.scss */
 .darshantab .btn, .pujatab .btn {
   padding: 14px 12px !important;
   font-size: 16px;
@@ -545,13 +538,13 @@ body {
   border-color: #ccc;
   border-radius: 0;
 }
-/* line 483, ../sass/app/_custom.scss */
+/* line 493, ../sass/app/_custom.scss */
 .darshantab .btn.active, .pujatab .btn.active {
   background-color: #d9534f;
   border-color: #ccc;
 }
 
-/* line 490, ../sass/app/_custom.scss */
+/* line 500, ../sass/app/_custom.scss */
 .optioncont .tabcontent {
   margin-top: 0 !important;
   margin-bottom: 15px !important;
@@ -559,48 +552,53 @@ body {
   padding: 15px;
   background-color: #f9f9f9;
 }
-/* line 499, ../sass/app/_custom.scss */
+/* line 509, ../sass/app/_custom.scss */
 .optioncont .tabcontent .tabs ul li {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 507, ../sass/app/_custom.scss */
+/* line 517, ../sass/app/_custom.scss */
 .user-info {
   border: 1px solid #ccc;
   margin-bottom: 15px;
   margin-top: 15px;
 }
-/* line 511, ../sass/app/_custom.scss */
+/* line 521, ../sass/app/_custom.scss */
 .user-info p {
   margin: 0 !important;
 }
-/* line 513, ../sass/app/_custom.scss */
+/* line 523, ../sass/app/_custom.scss */
 .user-info p span {
   font-weight: bold;
   padding: 10px;
   display: inline-block;
 }
-/* line 517, ../sass/app/_custom.scss */
+/* line 527, ../sass/app/_custom.scss */
 .user-info p span:first-child {
   background-color: #333;
   color: #fff;
   width: 30%;
 }
-/* line 522, ../sass/app/_custom.scss */
+/* line 532, ../sass/app/_custom.scss */
 .user-info p span:last-child {
   color: #333;
   width: 68%;
 }
 
-/* line 530, ../sass/app/_custom.scss */
+/* line 540, ../sass/app/_custom.scss */
 label[for='visitercount'] {
   top: 3px;
 }
 
-/* line 534, ../sass/app/_custom.scss */
+/* line 544, ../sass/app/_custom.scss */
 #Pooja, .pujatab {
   margin-bottom: 15px;
+}
+
+/* line 548, ../sass/app/_custom.scss */
+[data-main-tile] {
+  cursor: pointer;
 }
 
 /* helper classes for page */

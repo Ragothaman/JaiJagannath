@@ -30,8 +30,8 @@ $(document).ready(function(){
         $('.tabcontent [data-tab-content="'+clicked+'"]').show();
     });
 
-    $(document).off('click', '[data-main-tile]');
-    $(document).on('click', '[data-main-tile]', function(){
+    $('[data-main-tile]').off('click');
+    $('[data-main-tile]').on('click', function(){
         var temp = $(this).attr('data-main-tile');
         pageRedirect(temp);
     });
